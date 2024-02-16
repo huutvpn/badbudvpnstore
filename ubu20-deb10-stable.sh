@@ -84,7 +84,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/huutvpn/ghoibvpn/GM/"
+    REPO="https://raw.githubusercontent.com/huutvpn/badbudvpnstore/GM/"
 
 ####
 start=$(date +%s)
@@ -271,7 +271,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/huutvpn/ghoibvpn/GM/Register"
+izinsc="https://raw.githubusercontent.com/huutvpn/badbudvpnstore/GM/Register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -534,7 +534,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/huutvpn/ghoibvpn/GM/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/huutvpn/badbudvpnstore/GM/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
